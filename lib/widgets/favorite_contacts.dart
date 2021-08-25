@@ -42,7 +42,7 @@ class _FavoriteContactsState extends State<FavoriteContacts> {
                 itemCount: favorites.length,
                 itemBuilder: (BuildContext context, int index) {
                   return Padding(
-                    padding:  EdgeInsets.all(12.0),
+                    padding:  EdgeInsets.all(8.0),
                     child: Column(
                       children: <Widget>[
                         CircleAvatar(
